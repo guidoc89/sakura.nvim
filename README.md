@@ -1,30 +1,39 @@
 # Sakura 🌸
 
-A low-contrast pink colorscheme for neovim inspired by [zenbones](https://github.com/mcchrish/zenbones.nvim),
-[rose-pine](https://github.com/rose-pine/neovim), and [lackluster](https://github.com/slugbyte/lackluster.nvim),
-built using [lush.nvim](https://github.com/rktjmp/lush.nvim).
+Fork of [sakura.nvim ](https://github.com/anAcc22/sakura.nvim), all credits to him!
 
-# Previews
+## ✨ Main changes:
 
-## Dark Theme
-![Screenshot (dark theme)](screenshots/dark_theme_ss.png)
+- Dir structure (inspiration from [oldworld.nvim](https://github.com/dgox16/oldworld.nvim/) layout).
+- Dropped [lush](https://github.com/rktjmp/lush.nvim) (regular RGB codes).
+- Some new colors.
+- Green strings!!!!!!!!!!!!!!
+- Adjust some syntax hl groups (Pmenu, PmenuSel and diffs mainly).
+- Cmp integration!
+- Adjust gitsigns diffs hls.
+- Adjust Neogit diff hls (was impossible to distinguish remove diffs before).
 
-## Light Theme
-![Screenshot (light theme)](screenshots/light_theme_ss.png)
+## 📦 Installation
 
-# Installation
-
-## [lazy.nvim](https://github.com/folke/lazy.nvim)
+Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    "anAcc22/sakura.nvim"
+    "guidoc89/sakura.nvim"
 }
 ```
 
-# Usage
+## 🚀 Usage
 
 ```lua
-vim.opt.background = "dark" -- or "light"
+vim.opt.background = "dark" -- only dark support
 vim.cmd.colorscheme("sakura");
 ```
+
+## ⚙️ Configuration
+
+Removed custom config opts, might add:
+- **Styling**
+- **Highlights overrides**
+- **Custom integrations**
+- **Maybe another variant??**
