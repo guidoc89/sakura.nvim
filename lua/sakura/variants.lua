@@ -49,6 +49,7 @@ local palettes = {
 
 		pi0 = "#a289a1",
 		pi1 = "#786577",
+		pi2 = "#5c4b5c",
 	},
 }
 

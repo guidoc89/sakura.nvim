@@ -42,10 +42,8 @@ return {
 	FloatBorder = { fg = palette.fg1 }, -- Border of floating windows.
 	FloatTitle = { fg = palette.fg0, bold = true }, -- Title of floating windows.
 	NormalNC = { bg = palette.bgdefault, fg = palette.fg0 }, -- normal text in non-current windows
-	-- Pmenu = { bg = palette.bgdefault0, fg = palette.fg0, cterm = { reverse = true } }, -- Popup menu: Normal item.
 	Pmenu = { bg = palette.bgdefault0, fg = palette.fg0 }, -- Popup menu: Normal item.
-	PmenuSel = { bg = palette.fg8, fg = palette.bg0 }, -- Popup menu: Selected item.
-	-- PmenuSel =     { bg = palette.fg11, fg = palette.bg0, cterm = {reverse = true}   }, -- Popup menu: Selected item.
+    PmenuSel = { bg = palette.pi2, },
 	-- =menuKind      { String }, -- Popup menu: Normal item "kind"
 	-- =menuKindSel   { String }, -- Popup menu: Selected item "kind"
 	-- =menuExtra     { String }, -- Popup menu: Normal item "extra text"
