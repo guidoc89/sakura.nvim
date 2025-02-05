@@ -8,6 +8,7 @@ local default_config = {
 		gitsigns = true,
 		snacks = true,
 		todo_comments = true,
+		telescope = true,
 	},
 }
 
