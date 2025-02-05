@@ -7,6 +7,7 @@ local default_config = {
 		neogit = true,
 		gitsigns = true,
 		snacks = true,
+		todo_comments = true,
 	},
 }
 

@@ -159,13 +159,6 @@ return {
 	Changed = { fg = palette.yl0 },
 	Removed = { fg = palette.er0 },
 
-	TodoBgNOTE = { fg = palette.pi0, bold = true },
-	TodoBgTODO = { fg = palette.sa0, bold = true },
-	TodoBgPERF = { fg = palette.gr0, bold = true },
-	TodoBgHACK = { fg = palette.gb0, bold = true },
-	TodoBgWARN = { fg = palette.er0, bold = true },
-	TodoBgFIX = { fg = palette.yl0, bold = true },
-
 	RainbowDelimiterRed = { fg = palette.fg9 },
 	RainbowDelimiterYellow = { fg = palette.fg8 },
 	RainbowDelimiterBlue = { fg = palette.sa0 },

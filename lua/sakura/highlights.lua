@@ -8,6 +8,7 @@ local integrations_highlights = {
 	neogit = require("sakura.groups.integrations.neogit"),
 	gitsigns = require("sakura.groups.integrations.gitsigns"),
 	snacks = require("sakura.groups.integrations.snacks"),
+	todo_comments = require("sakura.groups.integrations.todo_comments"),
 }
 local integrations = {}
 
