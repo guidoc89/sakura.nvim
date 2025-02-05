@@ -6,6 +6,7 @@ local default_config = {
 		cmp = true,
 		neogit = true,
 		gitsigns = true,
+		snacks = true,
 	},
 }
 
