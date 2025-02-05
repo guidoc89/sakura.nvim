@@ -21,6 +21,7 @@ end
 
 local function load_highlights(highlights)
 	for group_name, group_settings in pairs(highlights) do
+        group_settings = type(group_settings) == "string" and { link = group_settings } or group_settings
 		vim.api.nvim_set_hl(0, group_name, group_settings)
 	end
 end
