@@ -167,10 +167,6 @@ return {
 	RainbowDelimiterViolet = { fg = palette.sr1 },
 	RainbowDelimiterCyan = { fg = palette.fg1 },
 
-	TelescopeSelection = { bg = palette.bg2 },
-	TelescopeTitle = { fg = palette.sa0, bold = true },
-	TelescopeMatching = { fg = palette.sr0 },
-
 	LeapLabel = { bg = palette.sa1, fg = palette.bg0, bold = true },
 
 	IblScope = { fg = palette.sa0 },

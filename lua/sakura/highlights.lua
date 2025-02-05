@@ -10,6 +10,7 @@ local integrations_highlights = {
 	gitsigns = require("sakura.groups.integrations.gitsigns"),
 	snacks = require("sakura.groups.integrations.snacks"),
 	todo_comments = require("sakura.groups.integrations.todo_comments"),
+	telescope = require("sakura.groups.integrations.telescope"),
 }
 local integrations = {}
 
