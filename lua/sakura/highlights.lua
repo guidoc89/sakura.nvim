@@ -1,5 +1,6 @@
 local config = require("sakura.config")
 local editor_highlights = require("sakura.groups.editor")
+local treesitter_highlights = require("sakura.groups.treesitter")
 
 local M = {}
 
@@ -28,6 +29,7 @@ end
 
 function M.setup()
 	load_highlights(editor_highlights)
+	load_highlights(treesitter_highlights)
 	for _, plugin in ipairs(integrations) do
 		if plugin.enabled then
 			load_highlights(plugin.highlights)
