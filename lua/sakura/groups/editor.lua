@@ -4,7 +4,7 @@ return {
 	-- NOTE: this is the one in charge of the background color
 	Normal = { bg = palette.bgdefault, fg = palette.fg0 }, -- Normal text
 	ColorColumn = { bg = palette.bg2 }, -- Columns set with 'colorcolumn'
-	Conceal = { bg = palette.bg0, fg = palette.fg0 }, -- Placeholder characters substituted for concealed text (see 'conceallevel')
+	Conceal = { fg = palette.pi1 }, -- Placeholder characters substituted for concealed text (see 'conceallevel')
 	Cursor = { bg = palette.fg0, fg = palette.bg0 }, -- Character under the cursor
 	CurSearch = { bg = palette.sr0, fg = palette.bg0 }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
 	-- =Cursor        { }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
