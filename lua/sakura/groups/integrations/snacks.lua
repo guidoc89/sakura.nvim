@@ -5,6 +5,7 @@ return {
 	SnacksPickerList = { bg = palette.bgdefault, fg = palette.sa0 },
 	SnacksPickerMatch = { fg = palette.white, bold = true },
 	SnacksPickerDir = { fg = palette.pi2 },
+    SnacksPickerTitle = { fg = palette.gp1 },
 
 	SnacksPickerGitType = { fg = palette.gp1 },
 	SnacksPickerGitCommit = { fg = palette.white },
