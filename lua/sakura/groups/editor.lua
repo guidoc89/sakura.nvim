@@ -23,13 +23,14 @@ return {
 	VertSplit = { fg = palette.fg1 }, -- Column separating vertically split windows
 	Folded = { bg = palette.bg2 }, -- Line used for closed folds
 	LineNr = { fg = palette.bg3 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
-	LineNrAbove = { fg = palette.bg3 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
-	LineNrBelow = { fg = palette.bg3 }, -- Line number for when the 'relativenumber' option is set, below the cursor line
+	-- LineNrAbove = { fg = palette.bg3 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
+	LineNrAbove = { fg = palette.bgdefault0 }, -- Line number for when the 'relativenumber' option is set, above the cursor line
+	LineNrBelow = { fg = palette.bgdefault0 }, -- Line number for when the 'relativenumber' option is set, below the cursor line
 	FoldColumn = { fg = palette.bg3 }, -- 'foldcolumn'
 	SignColumn = { fg = palette.bg3 }, -- Column where |signs| are displayed
 	IncSearch = { bg = palette.sr0, fg = palette.bg0 }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
 	Substitute = { bg = palette.sr9, fg = palette.sr0 }, -- |:substitute| replacement text highlighting
-	CursorLineNr = { fg = palette.fg1, italic = true, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+	CursorLineNr = { fg = palette.gp1, italic = true, bold = true }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
 	-- =ursorLineFold { }, -- Like FoldColumn when 'cursorline' is set for the cursor line
 	-- =ursorLineSign { }, -- Like SignColumn when 'cursorline' is set for the cursor line
 	-- =atchParen     { }, -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
