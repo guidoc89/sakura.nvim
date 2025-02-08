@@ -59,11 +59,14 @@ return {
 	SpellCap = { sp = palette.yl0, undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
 	SpellLocal = { sp = palette.gr0, undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
 	SpellRare = { sp = palette.sr0, undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-	StatusLine = { bg = palette.bg2 }, -- Status line of current window
+	StatusLine = { bg = palette.bgmiddle, fg = palette.fg0 }, -- Status line of current window
+	StatusLineNC = { bg = palette.bgmiddle, fg = palette.bg3 }, -- Status line of current window
 	-- =tatusLineNC   { }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
 	-- =abLine        { }, -- Tab pages line, not active tab page label
 	-- =abLineFill    { }, -- Tab pages line, where there are no labels
 	-- =abLineSel     { }, -- Tab pages line, active tab page label
+    WinBar = "StatusLine",
+    WinBarNC = "StatusLineNC",
 	Title = { fg = palette.fg0, bold = true }, -- Titles for output from ":set all", ":autocmd" etc.
 	Visual = { bg = palette.vs0 }, -- Visual mode selection
 	VisualNOS = { bg = palette.vs0 }, -- Visual mode selection when vim is "Not Owning the Selection".

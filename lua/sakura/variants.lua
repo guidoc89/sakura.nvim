@@ -1,6 +1,7 @@
 local palettes = {
 	default = {
 		bgdefault0 = "#353548",
+        bgmiddle = "#252635",
 		bgdefault = "#1e2030",
 
 		white = "#E0E2EA",
