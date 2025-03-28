@@ -5,6 +5,7 @@ local treesitter_highlights = require("sakura.groups.treesitter")
 local M = {}
 
 local integrations_highlights = {
+	blink = require("sakura.groups.integrations.blink"),
 	cmp = require("sakura.groups.integrations.cmp"),
 	neogit = require("sakura.groups.integrations.neogit"),
 	gitsigns = require("sakura.groups.integrations.gitsigns"),

@@ -3,6 +3,7 @@ local config = {}
 local default_config = {
 	variants = "default",
 	integrations = {
+        blink = true,
 		cmp = true,
 		neogit = true,
 		gitsigns = true,
