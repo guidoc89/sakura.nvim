@@ -2,12 +2,8 @@ local palette = require("sakura.palette")
 
 return {
 
-	BlinkCmpAbbrDeprecated = { fg = palette.bg9, strikethrough = true },
-	BlinkCmpMenu = { link = "Pmenu" },
 	BlinkCmpLabelMatch = { fg = palette.white },
-	BlinkCmpMenuSelection = { link = "PmenuSel" },
-	BlinkCmpScrollBarThumb = { link = "PmenuThumb" },
-	BlinkCmpScrollBarGutter = { link = "PmenuSbar" },
+	BlinkCmpAbbrDeprecated = { fg = palette.bg9, strikethrough = true },
 
 	---- SYMBOLS --
 	-- Greenish
