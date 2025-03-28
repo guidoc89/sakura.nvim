@@ -14,6 +14,7 @@ return {
 	CmpItemKindEnum = { fg = palette.gr0 },
 
 	-- Redish-pinkish
+    CmpItemKindClass = { fg = palette.sa0 },
 	CmpItemKindKeyword = { fg = palette.sa0 },
 	CmpItemKindEnumMember = { fg = palette.sa0 },
 	CmpItemKindReference = { fg = palette.sa0 },
@@ -25,6 +26,9 @@ return {
 	CmpItemKindVariable = { fg = palette.gb0 },
 	CmpItemKindField = { fg = palette.gb0 },
 	CmpItemKindConstant = { fg = palette.gp1 },
+
+    -- Yellowish
+    CmpItemKindInterface = { fg = palette.yl0 },
 
 	-- Grayish-pinkish
 	CmpItemKindMethod = { fg = palette.fg9 },
