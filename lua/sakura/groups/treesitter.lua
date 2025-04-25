@@ -85,6 +85,7 @@ return {
 	},
 	["@markup.italic"] = {
 		italic = true,
+		fg = palette.pi0,
 	},
 	["@markup.link"] = {
 		-- fg = "#4fd6be",
@@ -122,6 +123,7 @@ return {
 	},
 	["@markup.strong"] = {
 		bold = true,
+		fg = palette.sa0,
 	},
 	["@markup.underline"] = {
 		underline = true,
