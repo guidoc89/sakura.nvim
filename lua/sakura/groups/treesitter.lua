@@ -25,7 +25,10 @@ return {
 	["@operator"] = "Operator", -- Operator
 	["@keyword"] = "Keyword", -- Keyword
 	["@exception"] = "Exception", -- Exception
-	["@variable"] = "Identifier", -- Identifier
+	["@variable.member"] = "VariableMember", -- The lhs in "value = models.CharField()". Show it different than functions parameters
+	["@module"] = "VariableMember",
+	["@namespace"] = "VariableMember",
+	["@variable"] = "Variable", -- Identifier
 	["@type"] = "Type", -- Type
 	["@type.definition"] = "Typedef", -- Typedef
 	["@storageclass"] = "StorageClass", -- StorageClass
