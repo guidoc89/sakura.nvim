@@ -79,7 +79,7 @@ return {
 	-- =inBarNC       { }, -- Window bar of not-current windows
 	Comment = { fg = palette.bg9, italic = true }, -- Any comment
 	Constant = { fg = palette.gp1 }, -- (*) Any constant
-	String = { fg = palette.gr0, italic = true }, --   A string constant: "this is a string". Green strings
+	String = { fg = palette.gr0, }, --   A string constant: "this is a string". Green strings
 	Character = { fg = palette.gb1, italic = true }, --   A character constant: 'c', '\n'
 	VariableMember = { fg = palette.gb0 }, --  The lhs in "value = models.CharField()". Show it different than functions parameters
 	Number = { fg = palette.gp0 }, --   A number constant: 234, 0xff

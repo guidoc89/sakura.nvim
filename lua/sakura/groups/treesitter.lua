@@ -24,11 +24,15 @@ return {
 	["@label"] = "Label", -- Label
 	["@operator"] = "Operator", -- Operator
 	["@keyword"] = "Keyword", -- Keyword
+	["@keyword.function"] = "Function", -- Function
+	["@keyword.function.python"] = "Keyword", -- Function
 	["@exception"] = "Exception", -- Exception
-	["@variable.member"] = "VariableMember", -- The lhs in "value = models.CharField()". Show it different than functions parameters
 	["@module"] = "VariableMember",
 	["@namespace"] = "VariableMember",
-	["@variable"] = "Variable", -- Identifier
+	-- ["@variable"] = "Variable", -- Identifier
+	["@variable.parameter"] = { fg = palette.fg1 },
+	["@variable.builtin"] = "Constant",
+	["@variable.member"] = "VariableMember", -- The lhs in "value = models.CharField()". Show it different than functions parameters
 	["@type"] = "Type", -- Type
 	["@type.definition"] = "Typedef", -- Typedef
 	["@storageclass"] = "StorageClass", -- StorageClass
